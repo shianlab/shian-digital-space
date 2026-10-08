@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:,">
+  <title>第四阶段视觉对照 · ShiAn’s Digital Space</title>
+  <style>
+    @font-face{font-family:WenKai;src:url('/fonts/ShianWenKai-CJK.woff') format('woff');font-display:swap}
+    @font-face{font-family:Scribble;src:url('/fonts/RubikScribble-Regular.ttf') format('truetype');font-display:swap}
+    @font-face{font-family:Cabin;src:url('/fonts/CabinSketch-Regular.ttf') format('truetype');font-display:swap}
+    :root{color:#1a1a1a;background:#fafafa;font-family:WenKai,'Microsoft YaHei',sans-serif;font-size:17px}
+    *{box-sizing:border-box}body{margin:0}button,a{touch-action:manipulation}button{font:inherit;cursor:pointer}
+    a{color:inherit;text-underline-offset:4px}button:focus-visible,a:focus-visible{outline:3px solid #555;outline-offset:4px}
+    header,main,footer{max-width:1360px;margin:auto;padding:28px 40px}header{border-bottom:1px solid #ddd}
+    .eyebrow{font-size:15px;color:#555;letter-spacing:.08em;margin:0 0 12px}h1{font-size:clamp(28px,3.2vw,43px);font-weight:400;margin:0 0 8px;line-height:1.35}
+    header p:last-child{margin:0;color:#555;line-height:1.7}.layout{display:grid;grid-template-columns:minmax(0,1fr) 275px;gap:30px}
+    .controls{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;margin-bottom:14px}.button-group{display:flex;gap:7px;flex-wrap:wrap}
+    button{background:transparent;border:1px solid #b6b2b2;padding:8px 15px;border-radius:3px;min-height:44px}
+    button[aria-pressed=true]{background:#1a1a1a;color:#fafafa;border-color:#1a1a1a}button:hover{border-color:#1a1a1a}
+    figure{margin:0}figure img{width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#eee;display:block;border:1px solid #d7d5d1}
+    figcaption{display:flex;gap:14px;justify-content:space-between;margin-top:12px;line-height:1.6;font-size:15px;color:#555}figcaption a{white-space:nowrap}
+    .note{margin:22px 0 0;padding-left:15px;border-left:2px solid #b6b2b2;line-height:1.8;color:#555;font-size:15px}
+    aside{border-left:1px solid #ddd;padding-left:26px}h2{font-size:21px;font-weight:400;margin:0 0 12px}aside p{font-size:16px;line-height:1.8;margin:0 0 22px}
+    .swatches{display:flex;gap:10px;margin:10px 0 25px}.swatch{width:30px;height:30px;border-radius:50%;border:1px solid #bbb}
+    .name-sample{font-family:Scribble;font-size:46px;line-height:1.2;margin:8px 0}.english-sample{font-family:Cabin;font-size:22px;margin-top:10px}
+    .identity-sample{display:flex;flex-wrap:wrap;gap:0 12px;font-size:17px;line-height:1.8;margin:8px 0}.identity-sample span{white-space:nowrap}.rooms{font-size:16px;line-height:2}.small{font-size:14px!important;color:#555}
+    .handoff{border-top:1px solid #ddd;margin-top:30px;padding-top:22px;line-height:1.8}.handoff h2{margin-bottom:6px}.handoff p{margin:0;color:#555}
+    footer{padding-top:0;font-size:14px;color:#555;line-height:1.8}footer a{margin-right:20px}
+    @media(max-width:900px){header,main,footer{padding-left:22px;padding-right:22px}.layout{grid-template-columns:1fr}aside{border-left:0;border-top:1px solid #ddd;padding:24px 0 0}.specs{display:grid;grid-template-columns:1fr 1fr;gap:24px}}
+    @media(max-width:520px){header,main,footer{padding-left:16px;padding-right:16px}.specs{grid-template-columns:1fr}figcaption{display:block}figcaption a{display:inline-block;margin-top:7px}.controls{display:block}.button-group+.button-group{margin-top:10px}button{padding:8px 12px}}
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">ShiAn’s Digital Space · 第四阶段</p>
+    <h1>让时安走进原来的手绘空间。</h1>
+    <p>线稿方向已确认，三个身份标签已更新。当前展示静态效果，网站中的角色尚未替换。</p>
+  </header>
+  <main>
+    <div class="layout">
+      <section aria-label="场景效果对照">
+        <div class="controls">
+          <div class="button-group" role="group" aria-label="选择场景">
+            <button type="button" data-scene="corridor" aria-pressed="true">走廊迎宾</button>
+            <button type="button" data-scene="entrance" aria-pressed="false">入口窗户</button>
+          </div>
+          <div class="button-group" role="group" aria-label="选择版本">
+            <button type="button" data-version="original" aria-pressed="false">原项目截图</button>
+            <button type="button" data-version="concept" aria-pressed="true">线稿适配版</button>
+          </div>
+        </div>
+        <figure>
+          <img id="scene-image" src="/docs/planning/materials/stage-04/corridor-ip-lineart-v3.png" alt="走廊线稿适配：卷发、白卫衣和熊拖鞋以铅笔轮廓与排线绘制，SHIAN 下方为大模型工程师 软件开发工程师 内容创作者" width="1536" height="1024">
+          <figcaption><span id="scene-caption" aria-live="polite">走廊迎宾 · 线稿适配示意</span><a id="full-image" href="/docs/planning/materials/stage-04/corridor-ip-lineart-v3.png" target="_blank" rel="noopener">打开完整图片</a></figcaption>
+        </figure>
+        <p class="note" id="scene-note">保留中央迎宾位置。卷发、衣服褶皱和熊拖鞋用细轮廓与排线表达，减少渐变与立体光影。SHIAN 下方完整呈现三个身份标签，文字与人物分开。</p>
+        <div class="handoff">
+          <h2>下一步：按这个方向制作角色素材</h2>
+          <p>第五阶段制作透明单人图、动作帧、窗户半身与云朵姿态。第六阶段再放入实际场景，验证动作、比例和边缘。</p>
+        </div>
+      </section>
+      <aside aria-label="视觉规则">
+        <div class="specs">
+          <section>
+            <h2>保留你的辨识点</h2>
+            <p>卷发轮廓、深色大眼睛、温和笑容、白色连帽卫衣、银链、宽松灰裤、熊拖鞋。</p>
+            <h2>轮廓与排线</h2>
+            <p>卷发用线条分束，褶皱用疏密排线，脸部保留纸白。减弱立体光影，让人物与原场景的线条纹理协调。</p>
+            <div class="swatches" aria-label="纸白、墨黑、浅灰">
+              <span class="swatch" style="background:#fafafa" title="#FAFAFA 纸白"></span><span class="swatch" style="background:#1a1a1a" title="#1A1A1A 墨黑"></span><span class="swatch" style="background:#b6b2b2" title="#B6B2B2 浅灰"></span>
+            </div>
+          </section>
+          <section>
+            <h2>实际字体样张</h2>
+            <div class="name-sample">SHIAN</div>
+            <div class="identity-sample"><span>大模型工程师</span> <span>软件开发工程师</span> <span>内容创作者</span></div>
+            <div class="rooms">作品展厅　工作室<br>关于我　联系我</div>
+            <div class="english-sample">ShiAn’s Digital Space</div>
+            <p class="small">SHIAN：Rubik Scribble<br>中文：霞鹜文楷<br>英文木牌：Cabin Sketch<br>以上调用项目内真实字体；生成效果图中的字形仅作位置示意。</p>
+          </section>
+        </div>
+      </aside>
+    </div>
+  </main>
+  <footer>
+    <p>效果图由内置图像生成工具根据原场景与个人 IP 三视图制作。局部灯具、线条和道具可能与原截图有细微差异；正式实现继续使用原场景资源。</p>
+    <a href="/docs/planning/04-ip-visual-adaptation.md">视觉规则与巡检记录</a><a href="/docs/planning/materials/ip-reference.png" target="_blank" rel="noopener">原始 IP 三视图</a>
+  </footer>
+  <script>
+    const base = '/docs/planning/materials/stage-04/';
+    const scenes = {
+      corridor: {
+        label: '走廊迎宾',
+        conceptFile: 'corridor-ip-lineart-v3.png',
+        alt: '卷发、白卫衣和熊拖鞋以铅笔轮廓与排线绘制，SHIAN 下方为大模型工程师 软件开发工程师 内容创作者',
+        note: '保留中央迎宾位置。卷发、衣服褶皱和熊拖鞋用细轮廓与排线表达，减少渐变与立体光影。SHIAN 下方完整呈现三个身份标签，文字与人物分开。'
+      },
+      entrance: {
+        label: '入口窗户',
+        conceptFile: 'entrance-ip-lineart-v2.png',
+        alt: '线稿时安在原房屋右侧窗户后探头挥手，木牌显示 ShiAn’s Digital Space，门、树、猫和花槽沿用原构图',
+        note: '窗口人物同步采用黑白轮廓与少量排线，脸位于右上窗格、身体在窗框后方。关于我中的云朵人物也沿用这一线稿方向，姿态在第五阶段制作。'
+      }
+    };
+    let scene = 'corridor';
+    let version = 'concept';
+    function render() {
+      const isConcept = version === 'concept';
+      const src = base + (isConcept ? scenes[scene].conceptFile : scene + '-original.png');
+      const img = document.getElementById('scene-image');
+      img.src = src;
+      img.alt = scenes[scene].label + (isConcept ? '线稿适配示意：' + scenes[scene].alt : '原项目实际截图，保留原作者形象');
+      document.getElementById('full-image').href = src;
+      document.getElementById('scene-caption').textContent = scenes[scene].label + (isConcept ? ' · 线稿适配示意' : ' · 原项目实际截图');
+      document.getElementById('scene-note').textContent = scenes[scene].note;
+      document.querySelectorAll('[data-scene]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.scene === scene)));
+      document.querySelectorAll('[data-version]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.version === version)));
+    }
+    document.querySelectorAll('[data-scene]').forEach(button => button.addEventListener('click', () => { scene = button.dataset.scene; render(); }));
+    document.querySelectorAll('[data-version]').forEach(button => button.addEventListener('click', () => { version = button.dataset.version; render(); }));
+  </script>
+</body>
+</html>

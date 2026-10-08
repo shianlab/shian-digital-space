@@ -1,0 +1,17 @@
+.chinese-preview-header {
+    padding: 22px 28px;
+    border-bottom: 1px solid #aaa;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+    font-family: var(--font-zh);
+    line-height: 1.8;
+    strong { font-size: 24px; }
+    p { color: #555; font-size: 15px; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px 20px; }
+    button, a { font: inherit; cursor: pointer; border-bottom: 1px solid #1a1a1a; }
+}
+.chinese-preview-canvas { height: calc(100dvh - 135px); min-height: 300px; }

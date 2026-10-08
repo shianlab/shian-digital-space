@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:,">
+  <title>第五阶段人物素材 · ShiAn’s Digital Space</title>
+  <style>
+    @font-face{font-family:WenKai;src:url('/fonts/ShianWenKai-CJK.woff') format('woff');font-display:swap}
+    @font-face{font-family:Scribble;src:url('/fonts/RubikScribble-Regular.ttf') format('truetype');font-display:swap}
+    :root{font-family:WenKai,'Microsoft YaHei',sans-serif;color:#1a1a1a;background:#fafafa;font-size:17px}
+    *{box-sizing:border-box}body{margin:0}button,select,input{font:inherit}button,select{cursor:pointer}button,a{touch-action:manipulation}
+    button,a,input,select{outline-offset:4px}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #555}
+    header,main,footer{max-width:1320px;margin:auto;padding:26px 36px}header{border-bottom:1px solid #ddd}.eyebrow{margin:0 0 10px;color:#555;font-size:15px;letter-spacing:.08em}
+    h1{margin:0 0 10px;font-size:clamp(28px,3.5vw,43px);font-weight:400;line-height:1.35}header p:last-child{margin:0;line-height:1.8;color:#555}
+    .layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:30px}.toolbar,.button-group{display:flex;flex-wrap:wrap;gap:8px}.toolbar{justify-content:space-between;margin-bottom:14px}
+    button,select{min-height:44px;padding:7px 12px;border:1px solid #b6b2b2;border-radius:3px;background:transparent;color:inherit}
+    button[aria-pressed=true]{background:#1a1a1a;color:#fafafa;border-color:#1a1a1a}button:disabled,fieldset:disabled{opacity:.5;cursor:default}
+    .stage{position:relative;aspect-ratio:1.15;min-height:300px;border:1px solid #b6b2b2;overflow:hidden}
+    .stage[data-background=checker]{background-color:#fafafa;background-image:conic-gradient(#dedddb 25%,transparent 0 50%,#dedddb 0 75%,transparent 0);background-size:28px 28px}
+    .stage[data-background=paper]{background:#fafafa}.stage[data-background=dark]{background:#292a2c}
+    .sprite{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.stage[data-asset=corridor] .sprite{object-position:50% 50%}
+    .guides{position:absolute;pointer-events:none;inset:0;display:none}.stage[data-guides=true] .guides{display:block}.guide-v,.guide-h{position:absolute;border-color:#bc6435;border-style:dashed;border-width:0;opacity:.8}.guide-v{border-left-width:1px;height:100%;top:0}.guide-h{border-top-width:1px;width:100%;left:0}.guide-box{position:absolute;border:1px dashed #bc6435}
+    .caption{margin:12px 0 0;line-height:1.7;font-size:15px;color:#555}.player{border:0;padding:0;margin:20px 0 0;min-width:0}.player legend{padding:0;margin-bottom:10px}.player-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.player input[type=range]{flex:1;min-width:130px;accent-color:#1a1a1a}.player output{font-variant-numeric:tabular-nums;min-width:70px}.player label{display:flex;align-items:center;gap:8px}
+    aside{border-left:1px solid #ddd;padding-left:26px}h2{font-size:22px;font-weight:400;margin:0 0 12px}aside p{font-size:16px;line-height:1.85;margin:0 0 22px}.facts{margin:0 0 24px}.facts dt{color:#555;font-size:14px;margin:12px 0 4px}.facts dd{margin:0;line-height:1.6;overflow-wrap:anywhere}
+    .download{display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 24px}a{color:inherit;text-underline-offset:4px}.small{font-size:14px;color:#555}.check{display:flex;gap:8px;align-items:center;margin-top:18px}.check input{width:18px;height:18px;accent-color:#1a1a1a}
+    .name{font-family:Scribble;font-size:44px;margin:12px 0 4px}.labels{display:flex;flex-wrap:wrap;gap:8px 12px;line-height:1.7;font-size:16px}.labels span{white-space:nowrap}footer{font-size:14px;color:#555;line-height:1.8;padding-top:0}.error{color:#973c26}
+    @media(max-width:920px){header,main,footer{padding-left:22px;padding-right:22px}.layout{grid-template-columns:1fr}aside{border-left:0;border-top:1px solid #ddd;padding:24px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:25px}.stage{aspect-ratio:1.2}}
+    @media(max-width:540px){header,main,footer{padding-left:16px;padding-right:16px}.stage{aspect-ratio:1;min-height:0}aside{grid-template-columns:1fr;gap:0}.toolbar{display:block}.toolbar>.button-group+.button-group{margin-top:10px}.player-row{gap:8px}.player input[type=range]{width:100%;flex-basis:100%}.player label{font-size:15px}}
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">ShiAn’s Digital Space · 第五阶段</p>
+    <h1>同一个时安，三种出场方式。</h1>
+    <p>透明素材已制作。可以检查挥手动作、窗口探头与云朵休憩，切换底色查看人物边缘。</p>
+  </header>
+  <main>
+    <div class="layout">
+      <section aria-label="人物素材预览">
+        <div class="toolbar">
+          <div class="button-group" role="group" aria-label="选择人物素材">
+            <button type="button" data-asset="corridor" aria-pressed="true" disabled>走廊挥手</button>
+            <button type="button" data-asset="entrance" aria-pressed="false" disabled>窗口探头</button>
+            <button type="button" data-asset="about" aria-pressed="false" disabled>云朵休憩</button>
+          </div>
+          <div class="button-group" role="group" aria-label="选择预览背景">
+            <button type="button" data-background="checker" aria-pressed="true">棋盘格</button>
+            <button type="button" data-background="paper" aria-pressed="false">纸白</button>
+            <button type="button" data-background="dark" aria-pressed="false">深灰</button>
+          </div>
+        </div>
+        <div id="stage" class="stage" data-background="checker" data-asset="corridor" data-guides="false">
+          <img id="sprite" class="sprite" src="/textures/shian/corridor/05.webp" alt="时安的透明线稿人物，穿着卫衣、灰裤和熊拖鞋，抬手打招呼" width="1254" height="1254">
+          <div class="guides" aria-hidden="true"><div class="guide-box" id="guide-box"></div><div class="guide-v" id="guide-v"></div><div class="guide-h" id="guide-h"></div></div>
+        </div>
+        <p id="status" class="caption" role="status">正在加载透明素材…</p>
+        <fieldset class="player" id="player" disabled>
+          <legend>挥手动作</legend>
+          <div class="player-row">
+            <button type="button" id="play" aria-label="播放挥手动作">播放动作</button>
+            <button type="button" id="previous" aria-label="上一帧">上一帧</button>
+            <button type="button" id="next" aria-label="下一帧">下一帧</button>
+            <label>速度 <select id="fps" aria-label="动作播放速度"><option value="12">12 帧/秒</option><option value="20">20 帧/秒</option></select></label>
+            <input id="frame" type="range" min="1" max="9" value="5" step="1" aria-label="选择动作帧">
+            <output id="frame-number" for="frame" aria-live="off">第 5 / 9 帧</output>
+          </div>
+        </fieldset>
+        <label class="check"><input id="guides-toggle" type="checkbox">显示可见边界与定位线</label>
+        <p class="caption" id="note">9 帧按手势角度排序后往返播放。脸型、服饰和脚底位置以同一母版为基准。</p>
+      </section>
+      <aside>
+        <section>
+          <h2 id="asset-name">走廊挥手</h2>
+          <dl class="facts"><dt>文件格式</dt><dd>透明 WebP · 无损导出</dd><dt>画布尺寸</dt><dd id="dimensions">1254 × 1254</dd><dt>当前文件</dt><dd id="filename">corridor/05.webp</dd><dt>文件大小</dt><dd id="file-size">正在读取…</dd></dl>
+          <div class="download"><a id="download-webp" href="/textures/shian/corridor/05.webp" download>下载 WebP</a><a id="download-png" href="/docs/planning/materials/stage-05/masters/wave-05.png" download>下载 PNG 原稿</a></div>
+          <p class="small">棋盘格只是预览背景，没有写进图片。人物内部保留白色，外部为真实透明。</p>
+          <h2>查看走廊中的效果</h2>
+          <p>第六阶段已完成三维小样，可以在原走廊中查看比例、脚底和让路动作。<a href="/dev/stage-six.html">打开走廊小样</a></p>
+        </section>
+        <section>
+          <h2>确认的线稿方向</h2>
+          <p>卷发轮廓、卫衣、银链、宽松灰裤与熊拖鞋保持一致，以细线和浅排线融入原手绘空间。</p>
+          <div class="name">SHIAN</div>
+          <div class="labels"><span>大模型工程师</span><span>软件开发工程师</span><span>内容创作者</span></div>
+          <p class="small">姓名和身份使用独立文字层，未画进人物素材。</p>
+          <a href="/docs/planning/05-ip-assets.md">素材清单与巡检记录</a>
+        </section>
+      </aside>
+    </div>
+  </main>
+  <footer><p>PNG 原稿由内置图像生成工具制作。WebP 仅作无损格式转换，未裁切或缩放；原场景尚未切换到这套人物素材。</p></footer>
+  <script type="module">
+    const $ = id => document.getElementById(id);
+    let manifest, asset = 'corridor', frame = 5, playing = false, request = 0, previousTime = 0, elapsed = 0, sequenceIndex = 4;
+    const titles = { corridor: '走廊挥手', entrance: '窗口探头', about: '云朵休憩' };
+    const notes = {
+      corridor: '9 帧按手势角度排序后往返播放。脸型、服饰和脚底位置以同一母版为基准。',
+      entrance: '左侧留有透明空白，供原窗口探头交互使用。完整头发、手掌和袖口保留在画布内。',
+      about: '人物与云朵是一张完整透明图。接入时按这张图的实际宽高比显示，保留四周透明边距。',
+    };
+    function current() { return asset === 'corridor' ? manifest.corridor.frames[frame - 1] : manifest[asset]; }
+    function updateGuides() {
+      if (!manifest) return;
+      const entry = current(), stage = $('stage');
+      const scale = Math.min(stage.clientWidth / entry.width, stage.clientHeight / entry.height);
+      const left = (stage.clientWidth - entry.width * scale) / 2, top = (stage.clientHeight - entry.height * scale) / 2;
+      const box = entry.visibleBounds;
+      Object.assign($('guide-box').style, { left: `${left + box.left * scale}px`, top: `${top + box.top * scale}px`, width: `${box.width * scale}px`, height: `${box.height * scale}px` });
+      const anchor = asset === 'corridor' ? manifest.corridor.sharedFootAnchor : { x: (box.left + box.right) / 2, y: box.bottom };
+      $('guide-v').style.left = `${left + anchor.x * scale}px`;
+      $('guide-h').style.top = `${top + anchor.y * scale}px`;
+    }
+    function render() {
+      const entry = current();
+      $('sprite').src = entry.url;
+      $('sprite').alt = `时安线稿人物：${titles[asset]}${asset === 'corridor' ? `，第 ${frame} 帧` : ''}`;
+      $('stage').dataset.asset = asset;
+      $('frame').value = String(frame);
+      $('frame-number').value = `第 ${frame} / 9 帧`;
+      $('asset-name').textContent = titles[asset];
+      $('dimensions').textContent = `${entry.width} × ${entry.height}`;
+      $('filename').textContent = entry.url.replace('/textures/shian/', '');
+      $('file-size').textContent = `${(entry.bytes / 1024).toFixed(0)} KB`;
+      $('download-webp').href = entry.url; $('download-png').href = entry.png;
+      $('note').textContent = notes[asset];
+      $('player').disabled = asset !== 'corridor';
+      document.querySelectorAll('button[data-asset]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.asset === asset)));
+      updateGuides();
+    }
+    function stop() {
+      playing = false; cancelAnimationFrame(request); previousTime = 0; elapsed = 0;
+      $('play').textContent = '播放动作'; $('play').setAttribute('aria-label', '播放挥手动作');
+    }
+    function tick(time) {
+      if (!playing) return;
+      if (previousTime) elapsed += time - previousTime;
+      previousTime = time;
+      const duration = 1000 / Number($('fps').value);
+      if (elapsed >= duration) {
+        const steps = Math.floor(elapsed / duration); elapsed %= duration;
+        sequenceIndex = (sequenceIndex + steps) % manifest.corridor.sequence.length;
+        frame = manifest.corridor.sequence[sequenceIndex]; render();
+      }
+      request = requestAnimationFrame(tick);
+    }
+    function setFrame(value) { stop(); frame = value; sequenceIndex = manifest.corridor.sequence.indexOf(frame); render(); }
+    $('play').addEventListener('click', () => {
+      if (playing) { stop(); return; }
+      playing = true; $('play').textContent = '暂停动作'; $('play').setAttribute('aria-label', '暂停挥手动作'); request = requestAnimationFrame(tick);
+    });
+    $('previous').addEventListener('click', () => setFrame(frame === 1 ? 9 : frame - 1));
+    $('next').addEventListener('click', () => setFrame(frame === 9 ? 1 : frame + 1));
+    $('frame').addEventListener('input', event => setFrame(Number(event.target.value)));
+    document.querySelectorAll('button[data-asset]').forEach(button => button.addEventListener('click', () => { stop(); asset = button.dataset.asset; render(); $('status').textContent = `${titles[asset]}素材已就绪。`; }));
+    document.querySelectorAll('button[data-background]').forEach(button => button.addEventListener('click', () => {
+      $('stage').dataset.background = button.dataset.background;
+      document.querySelectorAll('button[data-background]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    }));
+    $('guides-toggle').addEventListener('change', event => { $('stage').dataset.guides = String(event.target.checked); updateGuides(); });
+    document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); });
+    new ResizeObserver(updateGuides).observe($('stage'));
+    try {
+      const response = await fetch('/textures/shian/manifest.json');
+      if (!response.ok) throw new Error('素材清单加载失败');
+      manifest = await response.json();
+      const entries = [...manifest.corridor.frames, manifest.entrance, manifest.about];
+      await Promise.all(entries.map(async entry => { const img = new Image(); img.src = entry.url; await img.decode(); }));
+      document.querySelectorAll('button[data-asset]').forEach(button => { button.disabled = false; });
+      render(); $('status').textContent = '11 个透明文件已就绪。点击播放查看挥手，或用滑块逐帧检查。';
+    } catch (error) {
+      $('status').textContent = `素材加载失败：${error.message}。请刷新页面重试。`; $('status').classList.add('error');
+    }
+  </script>
+</body>
+</html>

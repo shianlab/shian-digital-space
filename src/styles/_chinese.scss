@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Shian WenKai';
+    src: url('/fonts/ShianWenKai-UI.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root { --font-zh: 'Shian WenKai', 'Microsoft YaHei', sans-serif; }
+html[lang='zh-CN'] {
+    .navigation-ui, .achievement-popup, .achievements-panel, .global-overlay-wrapper { font-family: var(--font-zh); }
+    .map-panel .map-header h3, .map-panel .map-room-label,
+    .audio-panel h3, .audio-panel .volume-control,
+    .achievement-popup .title, .achievement-popup .description,
+    .achievements-panel .achievement-title, .achievements-panel .achievement-label,
+    .achievements-panel h3 { font-family: var(--font-zh); letter-spacing: 0.04em; }
+    .map-panel .map-room-label { white-space: nowrap; line-height: 1.5; font-size: clamp(17px, 2.5vw, 21px); }
+    .achievement-popup { line-height: 1.65; }
+    .achievements-panel { line-height: 1.6; }
+}
+
+.content-card { font-family: var(--font-zh); }
+.content-card__body { min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding-right: 6px; }
+.content-card__description { white-space: pre-wrap; overflow-wrap: anywhere; line-break: strict; word-break: normal; }
+.content-card__heading { overflow-wrap: anywhere; }
+.content-card :focus-visible { outline: 2px solid #1a1a1a; outline-offset: 4px; }

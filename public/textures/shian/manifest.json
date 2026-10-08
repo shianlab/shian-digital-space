@@ -1,0 +1,432 @@
+{
+  "version": 1,
+  "stage": 5,
+  "style": "monochrome graphite line art",
+  "identityLabels": [
+    "大模型工程师",
+    "软件开发工程师",
+    "内容创作者"
+  ],
+  "corridor": {
+    "frames": [
+      {
+        "index": 1,
+        "sourceNumber": 3,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/01.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-03.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 46,
+          "right": 971,
+          "bottom": 1222,
+          "width": 584,
+          "height": 1177
+        },
+        "solidBounds": {
+          "left": 389,
+          "top": 47,
+          "right": 968,
+          "bottom": 1220,
+          "width": 580,
+          "height": 1174
+        },
+        "bytes": 520158,
+        "sha256": "120cc0a7feb5b3f7e29250d04e3b8bf66fd63b4d85beb81eb0f828c6edcde3fd",
+        "footAnchor": {
+          "x": 612,
+          "y": 1220
+        },
+        "handCentroid": {
+          "x": 921.8018336818401,
+          "y": 377.22132861508766
+        },
+        "gestureSortAngle": 4.834063136594298
+      },
+      {
+        "index": 2,
+        "sourceNumber": 2,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/02.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-02.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 46,
+          "right": 974,
+          "bottom": 1221,
+          "width": 587,
+          "height": 1176
+        },
+        "solidBounds": {
+          "left": 389,
+          "top": 48,
+          "right": 972,
+          "bottom": 1220,
+          "width": 584,
+          "height": 1173
+        },
+        "bytes": 519090,
+        "sha256": "3ef6066700b3ca370e55cc56cd88a5ffcfef4dc712ae5a12ac4f913a2663a5f9",
+        "footAnchor": {
+          "x": 612,
+          "y": 1220
+        },
+        "handCentroid": {
+          "x": 925.6281838316722,
+          "y": 371.93064784053155
+        },
+        "gestureSortAngle": 7.913900861719246
+      },
+      {
+        "index": 3,
+        "sourceNumber": 4,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/03.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-04.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 46,
+          "right": 987,
+          "bottom": 1222,
+          "width": 600,
+          "height": 1177
+        },
+        "solidBounds": {
+          "left": 389,
+          "top": 48,
+          "right": 985,
+          "bottom": 1220,
+          "width": 597,
+          "height": 1173
+        },
+        "bytes": 525076,
+        "sha256": "38c4191681eaffe684ba0e8652a578f72be19d4fee61e120bd61da2872f3fa1f",
+        "footAnchor": {
+          "x": 611.5,
+          "y": 1220
+        },
+        "handCentroid": {
+          "x": 929.0151332529798,
+          "y": 371.3741797241195
+        },
+        "gestureSortAngle": 10.860562470067123
+      },
+      {
+        "index": 4,
+        "sourceNumber": 1,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/04.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-01.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 47,
+          "right": 992,
+          "bottom": 1221,
+          "width": 605,
+          "height": 1175
+        },
+        "solidBounds": {
+          "left": 390,
+          "top": 48,
+          "right": 991,
+          "bottom": 1220,
+          "width": 602,
+          "height": 1173
+        },
+        "bytes": 513190,
+        "sha256": "aa88fc74f1c021f9f315f070db46c9c716a677e26f36bd3d6550bb2f3bc58ac0",
+        "footAnchor": {
+          "x": 612,
+          "y": 1220
+        },
+        "handCentroid": {
+          "x": 934.4939118264521,
+          "y": 375.5974807557733
+        },
+        "gestureSortAngle": 16.675080400115764
+      },
+      {
+        "index": 5,
+        "sourceNumber": 5,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/05.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-05.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 46,
+          "right": 1000,
+          "bottom": 1221,
+          "width": 613,
+          "height": 1176
+        },
+        "solidBounds": {
+          "left": 389,
+          "top": 48,
+          "right": 998,
+          "bottom": 1220,
+          "width": 610,
+          "height": 1173
+        },
+        "bytes": 511324,
+        "sha256": "292c147a05f68356ac55425c2df01df186c2ea6085d4034a1508671ab4cdd5e3",
+        "footAnchor": {
+          "x": 611,
+          "y": 1220
+        },
+        "handCentroid": {
+          "x": 937.7870006770481,
+          "y": 374.7578876100203
+        },
+        "gestureSortAngle": 19.335062204608665
+      },
+      {
+        "index": 6,
+        "sourceNumber": 6,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/06.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-06.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 46,
+          "right": 1007,
+          "bottom": 1222,
+          "width": 620,
+          "height": 1177
+        },
+        "solidBounds": {
+          "left": 389,
+          "top": 48,
+          "right": 1006,
+          "bottom": 1220,
+          "width": 618,
+          "height": 1173
+        },
+        "bytes": 522330,
+        "sha256": "cf1f4348918de31ee8a3a2f6957f4607b679844f59f68ce9ea9ca0f63ad44cde",
+        "footAnchor": {
+          "x": 611.5,
+          "y": 1220
+        },
+        "handCentroid": {
+          "x": 943.2238707983194,
+          "y": 375.81144957983196
+        },
+        "gestureSortAngle": 24.2596910507747
+      },
+      {
+        "index": 7,
+        "sourceNumber": 7,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/07.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-07.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 46,
+          "right": 1011,
+          "bottom": 1222,
+          "width": 624,
+          "height": 1177
+        },
+        "solidBounds": {
+          "left": 389,
+          "top": 48,
+          "right": 1010,
+          "bottom": 1221,
+          "width": 622,
+          "height": 1174
+        },
+        "bytes": 528936,
+        "sha256": "8b5bf82f585e62a24f976f0fea9e87d07d90c88318230a9fb5095182f46049d3",
+        "footAnchor": {
+          "x": 611.5,
+          "y": 1221
+        },
+        "handCentroid": {
+          "x": 945.2720151610865,
+          "y": 375.19406190777005
+        },
+        "gestureSortAngle": 25.676759919846123
+      },
+      {
+        "index": 8,
+        "sourceNumber": 8,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/08.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-08.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 46,
+          "right": 1019,
+          "bottom": 1221,
+          "width": 632,
+          "height": 1176
+        },
+        "solidBounds": {
+          "left": 389,
+          "top": 48,
+          "right": 1017,
+          "bottom": 1220,
+          "width": 629,
+          "height": 1173
+        },
+        "bytes": 520998,
+        "sha256": "46e53897a20a39644bdbaab9680629be874f7cf8407a2e26d5d720647bfd4402",
+        "footAnchor": {
+          "x": 611.5,
+          "y": 1220
+        },
+        "handCentroid": {
+          "x": 955.1818670971213,
+          "y": 380.95251546946463
+        },
+        "gestureSortAngle": 35.74512143757734
+      },
+      {
+        "index": 9,
+        "sourceNumber": 9,
+        "kind": "wave",
+        "url": "/textures/shian/corridor/09.webp",
+        "png": "/docs/planning/materials/stage-05/masters/wave-09.png",
+        "width": 1254,
+        "height": 1254,
+        "aspectRatio": 1,
+        "visibleBounds": {
+          "left": 388,
+          "top": 47,
+          "right": 1018,
+          "bottom": 1222,
+          "width": 631,
+          "height": 1176
+        },
+        "solidBounds": {
+          "left": 389,
+          "top": 49,
+          "right": 1016,
+          "bottom": 1220,
+          "width": 628,
+          "height": 1172
+        },
+        "bytes": 529856,
+        "sha256": "88b331639bbb12dc2865482c57c1c2772cb4c19ebbf3e3d562345bb7e245c20e",
+        "footAnchor": {
+          "x": 611.5,
+          "y": 1220
+        },
+        "handCentroid": {
+          "x": 955.1554592478681,
+          "y": 382.6992870124423
+        },
+        "gestureSortAngle": 36.640424489170165
+      }
+    ],
+    "fps": 12,
+    "originalProjectFps": 20,
+    "playback": "ping-pong",
+    "sequence": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2
+    ],
+    "stillFrame": 5,
+    "sharedFootAnchor": {
+      "x": 612,
+      "y": 1220
+    },
+    "anchorOrigin": "top-left in image pixels; normalize by width/height"
+  },
+  "entrance": {
+    "kind": "window",
+    "url": "/textures/shian/entrance/window-peek.webp",
+    "png": "/docs/planning/materials/stage-05/masters/window-peek-final.png",
+    "width": 1254,
+    "height": 1254,
+    "aspectRatio": 1,
+    "visibleBounds": {
+      "left": 569,
+      "top": 215,
+      "right": 1218,
+      "bottom": 1168,
+      "width": 650,
+      "height": 954
+    },
+    "solidBounds": {
+      "left": 571,
+      "top": 216,
+      "right": 1217,
+      "bottom": 1167,
+      "width": 647,
+      "height": 952
+    },
+    "bytes": 488266,
+    "sha256": "a4c27d481daf3a13d349d56f0ca858456925a3142d737dd7675ed119e419ce59"
+  },
+  "about": {
+    "kind": "cloud",
+    "url": "/textures/shian/about/cloud-rest.webp",
+    "png": "/docs/planning/materials/stage-05/masters/cloud-rest-final.png",
+    "width": 1774,
+    "height": 887,
+    "aspectRatio": 2,
+    "visibleBounds": {
+      "left": 266,
+      "top": 127,
+      "right": 1539,
+      "bottom": 774,
+      "width": 1274,
+      "height": 648
+    },
+    "solidBounds": {
+      "left": 267,
+      "top": 129,
+      "right": 1538,
+      "bottom": 773,
+      "width": 1272,
+      "height": 645
+    },
+    "bytes": 499536,
+    "sha256": "621fa7a5a0a452d4da83384e05849b171bd9d020935087f539cd521c271c558e"
+  },
+  "integration": {
+    "status": "assets prepared; original scene components not yet wired",
+    "preserveCanvasPadding": true,
+    "cloudAspectRatio": 2,
+    "note": "Use supplied image dimensions and foot anchor. Do not substitute the old hardcoded cloud ratio or auto-crop frame whitespace."
+  }
+}
