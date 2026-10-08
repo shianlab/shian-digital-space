@@ -84,7 +84,7 @@ All PRs improving the shader physics, 3D math logic, or component memoization ru
 
 ## License
 
-The code in this repository is licensed under the [MIT License](LICENSE). 
+The code in this repository is licensed under the [MIT License](../LICENSE).
 **Note:** All personal assets, 3D textures, images, and copywriting are copyright of Tomasz Szmajda and may not be reused or reproduced without explicit permission.
 3. Commit your Changes (`git commit -m 'feat: Added realistic liquid simulation to Contact Room'`)
 4. Push to the Branch (`git push origin feature/AmazingRoom`)
