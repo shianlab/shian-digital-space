@@ -1,5 +1,7 @@
 <div align="center">
 
+[![时安的数字空间：黑白手绘概念横幅](docs/images/readme-banner.jpg)](https://www.shian.life/)
+
 # ShiAn’s Digital Space
 
 ### 时安的数字空间
@@ -16,8 +18,6 @@
 
 **[进入数字空间 ↗](https://www.shian.life/)** · **[轻量入口](https://www.shian.life/start/)** · **[快速开始](#快速开始)** · **[定制指南](docs/CUSTOMIZATION.md)**
 
-[![时安的数字空间：实际手绘走廊画面](public/images/share/shian-digital-space.png)](https://www.shian.life/)
-
 </div>
 
 ## 项目简介
@@ -29,6 +29,10 @@
 **网站默认通过本地内容运行，无需 CMS、数据库、账号登录或服务端 API。** 可选的访问统计默认关闭。
 
 ## 在线体验
+
+[![时安的数字空间：实际手绘走廊画面](public/images/share/shian-digital-space.png)](https://www.shian.life/)
+
+*网站实际入口画面。顶部横幅为 AI 辅助生成的手绘概念视觉。*
 
 | 空间 | 你可以在这里做什么 | 入口 |
 | :--- | :--- | :--- |
